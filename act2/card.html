@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Responsive Page</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <div class="container">
+      <a href="#" class="navbar-brand">My Website</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ <!-- Carousel -->
+ <div class="container mt-4">
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="image1.jpeg" alt="Image 1">
+      </div>
+      <div class="carousel-item">
+        <img src="image2.jpeg" alt="Image 2">
+      </div>
+      <div class="carousel-item">
+        <img src="image3.jpeg" alt="Image 3">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
+</div>
+
+<!-- Accordion -->
+<div class="container mt-4">
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          History
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Morris Michtom, a Brooklyn candy shop owner, saw the cartoon and had an idea. He and his wife Rose also made stuffed animals, and Michtom decided to create a stuffed toy bear and dedicate it to the president who refused to shoot a bear. He called it 'Teddy's Bear'.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Funny facts
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          1. After the Titanic sank in 1912, German toy company Steiff created 500 teddy bears to honor the victims. The “mourning bears” were black with red-rimmed eyes to show their sympathy. They now sell for $20,000 or more in auctions.
+          <br>
+          2. Winnie the Pooh was based on a real bear. A Canadian soldier bought a black bear cub from a hunter during World War I, and the animal became a pet and mascot for his troop. The bear, named Winnipeg, later was given to the London Zoological Gardens. Christopher Robin Milne, Winnie-the-Pooh author A.A. Milne’s son, took such a liking to her that he named his teddy bear after her.
+          <br>
+          3. The smallest commercially available stitched teddy bear is a mere 0.29 inches tall. Made by South African “microbear” maker Cheryl Moss. Cheryl’s largest creations are just taller than half an inch.
+          <br>
+          4. The world’s largest stitched teddy bear was made in 2008 in America, where bigger is better. The 55-foot-4 creation is named C.T. Dreams, which stands for Connect the Dream. You can visit it at the Exploration Place in Wichita, Kansas.
+          <br>
+          5. Between 2009 and 2010, a British company sent teddy bear Raymondo on a trip that gave him the status of the world’s most travelled toy mascot. In less than a year, he travelled 395,605 miles. Visiting six continents and 35 countries with airline crew members and sponsors.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- Card Section -->
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-header text-center bg-primary">
+            <h1>Teddy</h1>
+          </div>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlt0hDf7emUuPW-2dviyOKSO0YRgl3jjn806xnZ0pCSg&s"
+            alt="image not found"
+            style="height:300px"
+          />
+          <div class="card-body bg-danger">
+            A teddy bear is a type of toy that looks like a bear. The teddy bear normally looks like a cub or baby bear.[1] It became popular in Germany and the United States in 1902 when the name was invented. In Russia, bears were used as children's toys and were the subject of folklore or stories, long before the 20th century.
+          </div>
+          <div class="card-footer bg-secondary">
+            <a href="https://simple.wikipedia.org/wiki/Teddy_bear" class="btn btn-outline-warning">Read more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
