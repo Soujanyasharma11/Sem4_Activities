@@ -1,0 +1,33 @@
+.home-container {
+  background-image: url("https://img.pikbest.com/backgrounds/20200513/creative-synthesis-education-background_2755178.jpg!bw700");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:black;
+  padding: 20px;
+}
+
+.text-primary {
+  color: #007bff;
+}
+
+.text-secondary {
+  color: #6c757d;
+}
+
+.text-info {
+  color: #17a2b8;
+}
+
+.list-unstyled {
+  list-style: none;
+  padding-left: 0;
+}
+
+.text-success {
+  color: #28a745;
+}
